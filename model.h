@@ -14,9 +14,7 @@ private:
     vector<buku> bukuList;
 
 public:
-    // read buku
-
-    void read()
+       void read()
     {
         ifstream file("../Database/database.txt");
         if (file.is_open())
