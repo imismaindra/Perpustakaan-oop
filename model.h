@@ -15,6 +15,7 @@ private:
 
 public:
     // read buku
+
     void read()
     {
         ifstream file("../Database/database.txt");
